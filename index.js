@@ -8,7 +8,7 @@ var passdb = [];
 userdb.push("admin");
 passdb.push("admin");
 
-app.post('/', function (req, res) {
+app.all('/', function (req, res) {
   res.send(req.query.user);
 });
 
