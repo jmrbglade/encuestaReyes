@@ -9,7 +9,9 @@ userdb.push("admin");
 passdb.push("admin");
 
 app.all('/', function (req, res) {
-  res.send(req.query.user);
+  var user = req.query.user;
+  var pass = req.query.pass;
+  res.send(user);
 });
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
