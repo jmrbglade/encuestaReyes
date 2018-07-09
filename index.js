@@ -11,7 +11,7 @@ passdb.push("admin");
 app.all('/', function (req, res) {
   var user = req.query.user;
   var pass = req.query.pass;
-  res.send('req ' + req);
+  res.send('req ' + req.params);
 });
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
