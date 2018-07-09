@@ -9,7 +9,7 @@ userdb.push("admin");
 passdb.push("admin");
 
 app.post('/', function (req, res, next) {
-  var us = req.body.user;
+  var us = req.body.id;
   res.send('POST RESULT: ' + us);
 });
 
