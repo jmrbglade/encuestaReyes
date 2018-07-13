@@ -1,0 +1,61 @@
+
+body{
+	font-family: Arial;
+	background: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.little-logo{
+	width: 55px;
+	height: 61px;
+	position: relative;
+	top: 10px;
+	left: 50px;
+
+}
+
+.school{
+	color: #FFFFFF;
+	width: 50%;
+	font-size: 20px; 
+	position: relative;
+	top: -47px;
+	left: 115px;
+}
+
+.designer{
+	color: #A4A4A4;
+	width: 50%;
+	position: relative;
+	top: -42px;
+	left: 115px;
+}
+
+.big-tittle{
+	color: #FFFFFF;
+	width: 50%;
+	font-size: 90px; 
+	position: relative;
+	top: 0px;
+	left: 50px;
+}
+
+.description{
+	color: #A4A4A4;
+	width: 50%;
+	font-size: 20px; 
+	position: relative;
+	top: 0px;
+	left: 50px;
+}
+
+form {
+	color: #FFFFFF;
+	width: 200px;
+	position: relative;
+	top: -210px;
+	left: 900px;
+	text-align: center;
+
+}
